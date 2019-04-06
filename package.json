@@ -1,0 +1,40 @@
+{
+  "name": "ngentest",
+  "version": "0.4.0",
+  "description": "Angular Jasmine Unit Test Spec Generator",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.6.0",
+    "npm": ">=6.1"
+  },
+  "bin": {
+    "esctestgen": "./index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrisowdhaman/esctestgen.git"
+  },
+  "keywords": [
+    "angular",
+    "generate spec file",
+    "unit test spec",
+    "jasmine test spec",
+    "cli"
+  ],
+  "author": "shrisow",
+  "bugs": {
+    "url": "https://github.com/shrisowdhaman/esctestgen/issues"
+  },
+  "homepage": "https://github.com/shrisowdhaman/esctestgen/issues",
+  "dependencies": {
+    "check-engines": "^1.5.0",
+    "ejs": "^2.6.1",
+    "typescript-parser": "^2.6.1",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {}
+}
